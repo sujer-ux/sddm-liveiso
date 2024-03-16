@@ -66,7 +66,7 @@ namespace SDDM {
     UserModel::UserModel(bool needAllUsers, QObject *parent) : QAbstractListModel(parent), d(new UserModelPrivate()) {
         const QString facesDir = mainConfig.Theme.FacesDir.get();
         const QString themeDir = mainConfig.Theme.ThemeDir.get();
-        const QString currentTheme = mainConfig.Theme.Current.get();
+        const QString currentTheme = "Anime";
         const QString themeDefaultFace = QStringLiteral("%1/%2/faces/.face.icon").arg(themeDir).arg(currentTheme);
         const QString defaultFace = QStringLiteral("%1/.face.icon").arg(facesDir);
         const QString iconURI = QStringLiteral("file://%1").arg(

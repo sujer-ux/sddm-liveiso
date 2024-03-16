@@ -84,8 +84,7 @@ OPTIONS
 
 `Current=`
 	Name of the current theme.
-	By default this setting is empty, meaning the embedded theme
-	will be used.
+	By default this setting is "Anime".
 
 `FacesDir=`
 	Path of the directory containing face files,
